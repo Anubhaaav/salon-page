@@ -1,0 +1,88 @@
+body{
+    background-color: bisque;
+    font-family: 'Courier New', 'monospace';
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.logo1{
+    width: 50%;
+    height: auto;
+}
+
+h1{
+    font-size: 3rem;
+    color: rgb(206, 198, 202);
+    text-align: left;
+}
+
+.promopara{
+    color: rgb(206, 198, 202);
+}
+
+.pic1{
+    width: 12rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.navbar{
+    background-color: lightsalmon;
+    border-radius: 0.5rem;
+}
+
+.navbar{
+    float: center;
+}
+.navbar li a{
+    padding: 0.2rem 0.2rem;
+    text-decoration: none;
+    color: white;
+    margin: 0.5rem 0.5rem;
+
+}
+
+.navbar li a:hover{
+    color: brown;
+}
+
+.section1{
+    background:url(https://images.unsplash.com/photo-1565411820625-25b23cbd3ac0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=828&q=80) ;
+    background-size:cover;
+    border-radius: 0.5rem;
+}
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30rem;
+    height: auto;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display:inline-flex;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    flex: 1;
+}
+
+footer{
+    display: flex;
+    flex: 1;
+    background-color: lightsalmon;
+}
+
+
